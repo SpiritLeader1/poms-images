@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POMS Validated Pictures</title>
+    <link href="styles.css" rel="stylesheet"></style>
+</head>
+<body>
+    <!-- Main Page -->
+    <div id="menu">
+        <h1>POMS Validated Pictures</h1>
+        <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            Deneye başlamadan önce lütfen internet tarayıcısını tam ekran (F11) yapınız.
+        </div>
+        <h1> Lütfen bir görsel kategori seçiniz.</h1>
+        <button class="button" onclick="startSlideShow('anger')">Anger</button>
+        <button class="button" onclick="startSlideShow('confusion')">Confusion</button>
+        <button class="button" onclick="startSlideShow('depression')">Depression</button>
+        <button class="button" onclick="startSlideShow('fatigue')">Fatigue</button>
+        <button class="button" onclick="startSlideShow('tension')">Tension</button>
+        <button class="button" onclick="startSlideShow('vigor')">Vigor</button>
+    </div>
+    <!-- Slide Show -->
+    <div id="fixation-dot" style="display:none;">
+        <div class="dot"></div>
+    </div>
+
+    <div id="slideshow">
+        <img id="slide" src="" alt="Slideshow">
+    </div>
+
+    <!-- Post-Experiment -->
+     <div id="postexp">
+        <h1>Kategori Tamamlandı!</h1>
+     </div>
+     <button id="backBtn" class="button" onclick="returnToMenu()">Ana Menüye Dön</button>
+     
+    
+     <script src="script.js"></script>
+</body>
+</html>

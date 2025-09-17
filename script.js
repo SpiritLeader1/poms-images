@@ -13,7 +13,7 @@ const photos = {
         "Emotional Pictures (Selected)/Anger/6550.jpg",
         "Emotional Pictures (Selected)/Anger/6560.JPG",
         "Emotional Pictures (Selected)/Anger/9163.jpg",
-        "Emotional Pictures (Selected)/Anger/Angry pose 2.jpg",
+        "Emotional Pictures (Selected)/Anger/Angry face 5.jpg",
         "Emotional Pictures (Selected)/Anger/Bloody knife 1.jpg",
         "Emotional Pictures (Selected)/Anger/Gun 9.jpg",
         "Emotional Pictures (Selected)/Anger/gun.jpg",

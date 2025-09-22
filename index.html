@@ -12,15 +12,16 @@
         <h1>POMS Validated Pictures</h1>
         <div class="alert">
         <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-            Deneye başlamadan önce lütfen internet tarayıcısını tam ekran (F11) yapınız.
+            Deneye başlamadan önce lütfen internet tarayıcısını tam ekran (F11) yapınız. (Before starting the experiment,
+            please make the browser full screen (F11)).
         </div>
-        <h1> Lütfen bir görsel kategori seçiniz.</h1>
-        <button class="button" onclick="startSlideShow('anger')">Anger</button>
+        <h1> Please select one of the categories below.</h1>     
         <button class="button" onclick="startSlideShow('confusion')">Confusion</button>
+        <button class="button" onclick="startSlideShow('tension')">Tension</button>
         <button class="button" onclick="startSlideShow('depression')">Depression</button>
         <button class="button" onclick="startSlideShow('fatigue')">Fatigue</button>
-        <button class="button" onclick="startSlideShow('tension')">Tension</button>
         <button class="button" onclick="startSlideShow('vigor')">Vigor</button>
+        <button class="button" onclick="startSlideShow('anger')">Anger</button>
     </div>
     <!-- Slide Show -->
     <div id="fixation-dot" style="display:none;">
@@ -33,9 +34,9 @@
 
     <!-- Post-Experiment -->
      <div id="postexp">
-        <h1>Kategori Tamamlandı!</h1>
+        <h1>Category Finished!</h1>
      </div>
-     <button id="backBtn" class="button" onclick="returnToMenu()">Ana Menüye Dön</button>
+     <button id="backBtn" class="button" onclick="returnToMenu()">Return to Main Menu</button>
      
     
      <script src="script.js"></script>

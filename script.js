@@ -233,7 +233,7 @@ function showSlide() {
         setTimeout(() => {
             currentIndex++;
             showSlide();
-        }, 10000); // Display each photo for 10000 ms
+        }, 15000); // Display each photo for 15000 ms
     } else {
         repeatCount++;;
         if (repeatCount < maxRepeats) {

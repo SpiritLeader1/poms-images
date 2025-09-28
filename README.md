@@ -2,5 +2,4 @@
 
 ## Güncelleme Notları
 
-* Her kategorinin görsel sayısı 30'a çıkarıldı.
-* Her bir görsel 10000 ms gösterilecek olup kategoriler 5 dakika sürecek şekilde ayarlanmıştır.
+* Her bir görsel 15000 ms gösterilecek olup kategoriler 7.5 dakika sürecek şekilde ayarlanmıştır.
